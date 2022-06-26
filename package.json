@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "parcel index.html",
     "server": "json-server -w db.json",
+    "clean": "rm -rf node_modules .parcel-cache dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
