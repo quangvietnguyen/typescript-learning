@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "axios": "^0.27.2",
     "parcel": "^2.6.2"
   },
   "name": "webframework",
@@ -7,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
+    "server": "json-server -w db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
